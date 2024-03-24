@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "some project",
+    "environment": "some env",
+    "comment": "some comment",
+    "reportLink": "https://jenkins.autotests.cloud/job/024_stasia_shpakova_taskForUI_Project/",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6874160024:AAEEARXlTR1wRAwyYLEteQQsBBroCINLLd4",
+    "chat": "-1002048846988",
+    "replyTo": ""
+  }
+}
