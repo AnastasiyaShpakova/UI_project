@@ -3,12 +3,12 @@ package data;
 public class TestData {
     public String title = "Продавайте на Wildberries Работа в Wildberries";
     public String searchForPhotoText = "Поиск по фото";
-    public String menuList = "Женщинам\n" +
+    public String menuList = "Сертификаты Wildberries\n" +
+            "Женщинам\n" +
             "Обувь\n" +
             "Детям\n" +
             "Мужчинам\n" +
             "Дом\n" +
-            "Новый год\n" +
             "Красота\n" +
             "Аксессуары\n" +
             "Электроника\n" +
