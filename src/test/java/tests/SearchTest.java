@@ -16,7 +16,7 @@ public class SearchTest extends TestBase {
 
     @ValueSource(strings = {"Платье", "Шорты", "Крем"})
     @Feature("Страница поиска")
-    @DisplayName("Соответсвие результатов поиска данным ввода")
+    @DisplayName("Соответствие результатов поиска введенным данным")
     @ParameterizedTest
     @Tag("SearchPage")
     void checkVisibleTest(String word) {

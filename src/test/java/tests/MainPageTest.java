@@ -26,7 +26,7 @@ public class MainPageTest extends TestBase{
 
     @Test
     @Feature("Главная страница")
-    @DisplayName("Отображение всплывающей подсказки при наведение на кнопку Фотоаппарата")
+    @DisplayName("Отображение всплывающей подсказки при наведении на кнопку Фотоаппарата")
     @Tag("MainPage")
     void checkTooltipTest() {
         startPage.openPage()
