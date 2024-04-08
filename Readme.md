@@ -4,7 +4,7 @@
 
 <p  align="center">
 
-<a href="https://www.jetbrains.com/idea/"><img width="5%" title="IntelliJ IDEA" src="media/icons/Idea.svg"></a>
+<a href="https://www.jetbrains.com/idea/"><img width="5%" title="IntelliJ IDEA" src="src/media/icons/Idea.svg"></a>
 <a href="https://www.java.com/"><img width="5%" title="Java" src="media/icons/Java.svg"></a>
 <a href="https://selenide.org/"><img width="5%" title="Selenide" src="media/icons/Selenide.svg"></a>
 <a href="https://gradle.org/"><img width="5%" title="Gradle" src="media/icons/Gradle.svg"></a>
