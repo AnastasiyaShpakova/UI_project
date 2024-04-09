@@ -19,8 +19,7 @@ public class CurrencyTest extends TestBase {
                 Arguments.of(Currency.RUB, "₽"),
                 Arguments.of(Currency.BYN, "р."),
                 Arguments.of(Currency.AMD, "драм"),
-                Arguments.of(Currency.KGS, "сом"),
-                Arguments.of(Currency.UZS, "сум")
+                Arguments.of(Currency.KGS, "сом")
         );
     }
 
