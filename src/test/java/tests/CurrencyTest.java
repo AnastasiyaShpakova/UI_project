@@ -8,7 +8,9 @@ import org.junit.jupiter.params.provider.MethodSource;
 import pages.StartPage;
 
 import data.Currency;
+
 import java.util.stream.Stream;
+
 public class CurrencyTest extends TestBase {
 
     StartPage startPage = new StartPage();

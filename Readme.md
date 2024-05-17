@@ -1,21 +1,21 @@
-# Проект по автоматизации тестирования для маркетплейса «Wildberries»
+# <img src="media/screenshots/WB.jpeg" width="55" height="55"/></a> Проект по автоматизации тестирования для маркетплейса <a target="_blank" href="https://www.wildberries.ru/">Wildberries</a>
 
 ## Технологии и инструменты
 
 <p  align="center">
 
-<a href="https://www.jetbrains.com/idea/"><img width="5%" title="IntelliJ IDEA" src="src/media/icons/Idea.svg"></a>
-<a href="https://www.java.com/"><img width="5%" title="Java" src="src/media/icons/Java.svg"></a>
-<a href="https://selenide.org/"><img width="5%" title="Selenide" src="src/media/icons/Selenide.svg"></a>
-<a href="https://gradle.org/"><img width="5%" title="Gradle" src="src/media/icons/Gradle.svg"></a>
-<a href="https://junit.org/junit5/"><img width="5%" title="Junit5" src="src/media/icons/Junit5.svg"></a>
-<a href="https://selenoid.autotests.cloud/"><img width="5%" title="Selenoid" src="src/media/icons/Selenoid.svg"></a>
-<a href="https://github.com/"><img width="5%" title="GitHub" src="src/media/icons/GitHub.svg"></a>
-<a href="https://allurereport.org/"><img width="5%" title="Allure Report" src="src/media/icons/Allure.svg"></a>
-<a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="src/media/icons/Allure_TO.svg"></a>
-<a href="https://www.jenkins.io/"><img width="5%" title="Jenkins" src="src/media/icons/Jenkins.svg"></a>
-<a href="https://www.atlassian.com/ru/software/jira"><img width="5%" title="Jira" src="src/media/icons/Jira.svg"></a>
-<a href="https://web.telegram.org/"><img width="5%" title="Telegram" src="src/media/icons/Telegram.svg"></a>
+<a href="https://www.jetbrains.com/idea/"><img width="5%" title="IntelliJ IDEA" src="media/icons/Idea.svg"></a>
+<a href="https://www.java.com/"><img width="5%" title="Java" src="media/icons/Java.svg"></a>
+<a href="https://selenide.org/"><img width="5%" title="Selenide" src="media/icons/Selenide.svg"></a>
+<a href="https://gradle.org/"><img width="5%" title="Gradle" src="media/icons/Gradle.svg"></a>
+<a href="https://junit.org/junit5/"><img width="5%" title="Junit5" src="media/icons/Junit5.svg"></a>
+<a href="https://selenoid.autotests.cloud/"><img width="5%" title="Selenoid" src="media/icons/Selenoid.svg"></a>
+<a href="https://github.com/"><img width="5%" title="GitHub" src="media/icons/GitHub.svg"></a>
+<a href="https://allurereport.org/"><img width="5%" title="Allure Report" src="media/icons/Allure.svg"></a>
+<a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="media/icons/Allure_TO.svg"></a>
+<a href="https://www.jenkins.io/"><img width="5%" title="Jenkins" src="media/icons/Jenkins.svg"></a>
+<a href="https://www.atlassian.com/ru/software/jira"><img width="5%" title="Jira" src="media/icons/Jira.svg"></a>
+<a href="https://web.telegram.org/"><img width="5%" title="Telegram" src="media/icons/Telegram.svg"></a>
 </p>
 
 ### Автотесты написаны на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов.
@@ -75,22 +75,22 @@ gradle clean test -Denv=remote
 ### Сборка тестов в  <a target="_blank" href="https://jenkins.autotests.cloud/job/024_stasia_shpakova_taskForUI_Project/">Jenkins</a>
 
 <p align="center">
-<img title="Jenkins" src="src/media/screenshots/Jenkins_UI_Project.png">
+<img title="Jenkins" src="media/screenshots/Jenkins_UI_Project.png">
 </p>
 
 >Для запуска сборки необходимо перейти в раздел `Build with Parameters` и нажать кнопку `Build`
 
 <p align="center">
-<img src="src/media/screenshots/Jenkins_Parameters.png"/>
+<img src="media/screenshots/Jenkins_Parameters.png"/>
 </p>
 
-## Интеграция с <b><a target="_blank" href="https://jenkins.autotests.cloud/job/024_stasia_shpakova_taskForUI_Project/2/allure/">Allure report</a></b>
+## Интеграция с <b><a target="_blank" href="https://jenkins.autotests.cloud/job/024_stasia_shpakova_taskForUI_Project/allure/">Allure report</a></b>
 #### Результаты прохождения тестов
 `ALLURE REPORT` - отображает дату и время прохождения тестов, общее количество запущенных тестов, а также процент и количество успешных и упавших тестов <br/>
 `TREND` - отображает тенденцию выполнения тестов для всех запусков <br/>
 `SUITES` - отображает распределение тестов по сьютам <br/>
 
-<img src="src/media/screenshots/AllureReport_Screen.png">
+<img src="media/screenshots/AllureReport_Screen.png">
 
 #### Развернутый результат прохождения тестов:
 1. Общий список автотестов
@@ -102,16 +102,16 @@ gradle clean test -Denv=remote
 ## Интеграция с <b><a target="_blank" href="https://allure.autotests.cloud/project/4154/test-cases/31398?treeId=0">Allure TestOps</a></b>
 
 >
-<img src="src/media/screenshots/AllureTestOps_Screen.png">
+<img src="media/screenshots/AllureTestOps_Screen.png">
 
-## Интеграция с <b><a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-11185">Jira</a></b>
+## Интеграция с <b><a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1185">Jira</a></b>
 
 >В Jira создана задача и в разделе `Allure:Test Cases` отображаются интегрированные автоматизированные тесты
 >
-<img src="src/media/screenshots/Jira.png">
+<img src="media/screenshots/Jira.png">
 
 ## Уведомления в Telegram с использованием бота
 
 > Бот, созданный в Telegram, после завершения сборки отправляет сообщение с отчетом о прохождении тестов
 >
-<img src="src/media/screenshots/Telegram_Notifications.jpeg">
+<img src="media/screenshots/Telegram_Notifications.jpeg">
