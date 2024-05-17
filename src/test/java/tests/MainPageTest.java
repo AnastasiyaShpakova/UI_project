@@ -9,7 +9,7 @@ import pages.LoginPage;
 import pages.ServicesPage;
 import pages.StartPage;
 
-public class MainPageTest extends TestBase{
+public class MainPageTest extends TestBase {
     StartPage startPage = new StartPage();
     TestData data = new TestData();
     ServicesPage servicesPage = new ServicesPage();
