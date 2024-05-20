@@ -97,7 +97,7 @@ gradle clean test -Denv=remote
 2. Содержание автотеста
 3. Вложения
 
-<img src="src/media/screenshots/AllureReport_TestCases.png">
+<img src="media/screenshots/AllureReport_TestCases.png">
 
 ## Интеграция с <b><a target="_blank" href="https://allure.autotests.cloud/project/4154/test-cases/31398?treeId=0">Allure TestOps</a></b>
 
